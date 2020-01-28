@@ -2,8 +2,8 @@
 
 $server = "localhost";
 $username = "root";
-$password = "";
-$database = "zenocraft_landingpage";
+$password = "Zenocraft@123";
+$database = "email_us";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 

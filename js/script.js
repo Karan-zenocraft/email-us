@@ -11,7 +11,7 @@ e.preventDefault();
 $.ajax({
     
 type:"POST",
-url : "../contact-us/php/index.php",
+url : "../email-us/php/index.php",
 data:new FormData(this),
 contentType:false,
 processData : false,
