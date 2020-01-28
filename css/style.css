@@ -1,0 +1,206 @@
+.Contact .Form form .spinner{position: relative}
+
+.Contact .Form form .form-group .spinner-border-sm {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+   color: #fff;
+    position: absolute;
+    left: 65px;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 11px;
+    width: 11px;
+    display: none;
+}
+
+.Contact .Form .form-group .alert {
+    position: relative;
+    padding: 5px 15px!important;;
+    margin-bottom: 1rem!important;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    max-width: 95%!important;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-weight:  bold;
+    font-family: "Josefin Sans",sans-serif;
+    text-align: center;
+    }
+
+.alert-success {
+    color: #fff!important;
+    border: none!important;
+}
+
+input[type="submit" i]:disabled{background: red!important;
+    border: 1px solid red!important;}
+
+
+.Menu {display: inline-block;cursor: pointer;margin-left: 15px;margin-top: 5px;margin-left: auto;}
+
+.bar1{width: 28px;height: 2px;background-color: #174477;margin: 6px 0;transition: 0.4s;}
+.bar2{width: 28px;height: 2px;background-color: #174477;margin: 6px 0;transition: 0.4s;}
+.bar3{width: 28px;height: 2px;background-color: #174477;margin: 6px 0;transition: 0.4s;}
+.change .bar1 {-webkit-transform: rotate(-45deg) translate(-9px, 6px);transform: rotate(-54deg) translate(-10px, 6px);}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {-webkit-transform: rotate(45deg) translate(-8px, -8px);transform: rotate(51deg) translate(-3px, -3px);
+}
+
+.change{margin-top: 0px!important}
+
+
+
+.load__none {display: none;color:#fff;}
+.load {position: fixed;background: #fff;width: 100%;height: 100%;display: flex;align-items:center;justify-content: center;
+  z-index: 999;}
+
+#Load h1{font-size: 40px;line-height: 30px;letter-spacing: 3px;color: #888787;font-family: "Josefin Sans",sans-serif;font-weight: 400;margin: 0}
+
+
+/*---------------------Scrolling Bar-------------------------------------*/
+
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-image: -webkit-linear-gradient(330deg, #174477 0%, #595959 100%);background-image: linear-gradient(120deg, #174477 0%, #fff 100%); }
+.thin::-webkit-scrollbar {width: 6px; }
+.example-1 {position: relative;overflow-y: scroll;height: 200px; }
+
+
+/*------------------Floating----------------*/
+
+#scroll {position:fixed;right:40px;bottom:20px;cursor:pointer;width:40px;height:40px;background-color:transparent;text-indent:-9999px;display:none;-webkit-border-radius:60px;-moz-border-radius:60px;border-radius:6px;border: 1px solid #174477; }
+
+#scroll span {position:absolute;top:50%;left:50%;margin-left:-8px;margin-top:-12px;height:0;width:0;border:8px solid transparent;border-bottom-color:#174477;}
+#scroll:hover {background-color:transparent;border-color:#ddd;transition: 0.25s ease; opacity:1;filter:"alpha(opacity=100)";-ms-filter:"alpha(opacity=100)";}
+#scroll:hover span{border-bottom-color:#ddd;transition: 0.25s ease;}
+
+
+
+
+
+/*----------nav-active class-and-animation--------------------*/
+header .Logo h1{font-size: 20px;line-height: 30px;letter-spacing: 3px;color: #888787;font-family: "Josefin Sans",sans-serif;font-weight: 400;margin: 0}
+header nav ul .active a{color: #174477;}
+nav ul li a:after {content: "";display: block;background-color: #174477;height: 1px;width: 0%;-webkit-transition: 0.2s width;transition: 0.2s width;}
+nav ul li a:hover:after, nav ul .active a:after {width: 100%;}
+
+
+/*-------------------Header----------------------*/
+
+header{padding: 10px 15px;background: #fff;color: #fff;z-index: 999999!important;}
+
+header nav ul{padding: 0px;margin-bottom: 0px;}
+header nav ul li{list-style-type: none;margin: 0px 25px;}
+header nav ul li a{text-decoration: none;font-size: 11px;font-family: "Josefin Sans",sans-serif;
+font-weight: bold;line-height: 23px;text-transform: uppercase;letter-spacing: .2em;color: #888787;padding: 15px 0px;}
+header nav ul li a:hover{text-decoration: none;color: #174477;}
+
+.AboutUs{background: url(../img/about-us.jpg);background-repeat: no-repeat; background-size: cover;background-position: center;
+background-attachment: fixed!important;padding: 300px 0px;padding-bottom: 100px;}
+.AboutUs h1, .Development .DevelopmentLeft h1{text-transform: uppercase;text-align: center;font-size: 30px;margin: 20px 0;color: #ffffff;font-family: "Josefin Sans",sans-serif;font-weight: 600;letter-spacing: 1px;margin-bottom: 0;}
+.Development .DevelopmentLeft h1{font-weight: bold;color:#000;margin-bottom: 50px;width: 100%;margin-left: auto;margin-right: auto;}
+.AboutUs p{color: #fff;display: block;margin: 25px 0 0;font-family: "Josefin Sans",sans-serif;font-size: 18px;
+line-height: 26px;}
+.Development .DevelopmentLeft h1 span{color: #174477}
+.Development{padding-top: 30px;padding-bottom: 50px;}
+
+.Development .DevelopmentLeft p{color: #000;display: block;margin: 10px 0 0;font-family: "Josefin Sans",sans-serif;font-weight: 400; font-size: 16px;line-height: 23px;z-index: 999;text-align: center;}
+.Development .DevelopmentLeft .TechnologyList{width: 100%;margin: auto;}
+.Development .DevelopmentLeft .Technology .Box{height: 100px;width: 100px;border-radius:50%;background: #fff;color: #174477;display: flex;align-items: center;justify-content: center;border: 3px solid #174477;transition: 0.8s all}
+.Development .DevelopmentLeft .Technology .Box i {font-size: 45px;}
+.Development .DevelopmentLeft .Technology .Box .fa-wordpress{color: #21759b}
+.Development .DevelopmentLeft .Technology .Box .fa-laravel{color:#ff2d20}
+.Development .DevelopmentLeft .Technology .Box .fa-android{color:#3DDA84}
+.Development .DevelopmentLeft .Technology .Box .fa-apple{color:#000}
+.Development .DevelopmentLeft .Technology .Box .fa-react{color:#61dafb}
+.Development .DevelopmentLeft .Technology .Box:hover{background: #174477;color: #fff;transition: 0.8s all}
+
+.Development .DevelopmentLeft .Technology .Box:hover i{color: #fff;transition: 0.8s all;}
+.Development .DevelopmentLeft .Technology .wordpress{border-color:#21759b }
+.Development .DevelopmentLeft .Technology .laravel{border-color:#ff2d20 }
+.Development .DevelopmentLeft .Technology .android{border-color:#3DDA84 }
+.Development .DevelopmentLeft .Technology .apple{border-color:#000 }
+.Development .DevelopmentLeft .Technology .react{border-color:#61dafb }
+.Development .DevelopmentLeft .Technology .yii{border-color: #16a314;}
+.Development .DevelopmentLeft .Technology .codeigniter{border-color: #ee4323;}
+.Development .DevelopmentLeft .Technology .fluter{border-color: #08599d;}
+.Development .DevelopmentLeft .Technology .yii img{max-height: 45px;max-width: 45px;}
+.Development .DevelopmentLeft .Technology .Imgchange .img2{display: none;transition: 0.8s all;}
+.Development .DevelopmentLeft .Technology .Imgchange:hover .img1{display: none;transition: 0.8s all}
+.Development .DevelopmentLeft .Technology .Imgchange:hover .img2{display: block;transition: 0.8s all}
+.Development .DevelopmentLeft .Technology .wordpress:hover{background: #21759b;transition: 0.8s all;color: #fff;border-color: #21759b}
+.Development .DevelopmentLeft .Technology .laravel:hover{background: #ff2d20;transition: 0.8s all;color: #fff;border-color: #ff2d20}
+.Development .DevelopmentLeft .Technology .android:hover{background: #3DDA84;transition: 0.8s all;color: #fff;border-color: #3DDA84}
+.Development .DevelopmentLeft .Technology .apple:hover{background: #000;transition: 0.8s all;color: #fff;border-color: #000}
+.Development .DevelopmentLeft .Technology .react:hover{background: #61dafb;transition: 0.8s all;color: #fff;border-color: #61dafb}
+.Development .DevelopmentLeft .Technology .yii:hover{background: #16a314;transition: 0.8s all;color: #fff;border-color: #16a314}
+.Development .DevelopmentLeft .Technology .codeigniter:hover{background: #ee4323;transition: 0.8s all;color: #fff;border-color: #ee4323}
+.Development .DevelopmentLeft .Technology .fluter:hover{background: #08599d;transition: 0.8s all;color: #fff;border-color: #08599d}
+
+.Contact h1{text-transform: uppercase;color: #000;font-family: "Josefin Sans",sans-serif;font-size: 30px;line-height: 40px;letter-spacing: 2px;font-weight: bold}
+.Contact{padding-top: 50px;padding-bottom: 30px;}
+.Contact h1 span{color: #174477}
+.Contact .Form input, .Contact .Form input::placeholder{font-size: 15px;letter-spacing: 2px;line-height: 20px;font-weight: 400;font-family: "Josefin Sans",sans-serif;color: #000;}
+.Contact .Form input:hover{border-color: #21759b;transition: 0.8s all}
+.Contact .Form input:focus{box-shadow: none;outline: none}
+.Contact .Form input{border: none;border-bottom: 0.5px solid #ddd;width: 95%;box-shadow: none;transition: 0.8s all}
+.Contact .Form input[type=submit]{border: none;background:#174477;border: 1px solid #174477;padding: 6px 0px;color: #fff;font-weight: bold;transition: 0.8s all}
+/*.Contact .Form input[type=submit]:hover{background: transparent;border-color: #174477;transition: 0.8s all;color: #174477}*/
+.Contact .ContactImg{display: flex;align-items: flex-end;justify-content: flex-end;}
+.Portfolio .nav-pills .nav-link, .Portfolio .nav-pills .show>.nav-link{font-size: 18px !important;border: #000 solid 1px !important;padding: 4px 25px!important;text-align: center;font-family: "Josefin Sans",sans-serif;letter-spacing: 2px;font-weight: 600;display: inline-block;color: #000!important;background: transparent!important;}
+.Portfolio{padding-top: 40px;padding-bottom: 50px;background: #F4F4F4}
+
+.Portfolio .nav.nav-pills{display: flex;align-items: center;justify-content: center;}
+.Portfolio .nav.nav-pills .nav-item{margin: 0px 10px;}
+.Portfolio .nav.nav-pills .nav-link{height: 35px!important;}
+.Portfolio .nav.nav-pills .nav-link.active{border-color: #174477!important;color: #174477!important;}
+
+.tab-content #menu1 .col-md-4, .tab-content #home .col-md-4{margin-top: 40px;}
+.tab-content #menu1, .tab-content #home{padding: 00px 0px}
+.tab-content #menu1 .Box-shadow:after, .tab-content #home .Box-shadow:after{content:'';height: 0%;width: 100%;background: rgba(0,0,0,0.7);position: absolute;top: 0;left: 0;right: 0;margin: auto;transition: 0.8s all}
+.tab-content #menu1 .Box-shadow:hover:after, .tab-content #home .Box-shadow:hover:after{height: 100%;transition: 0.8s all}
+.tab-content #menu1 .Box-shadow, .tab-content #home .Box-shadow{border-radius: 2%;box-shadow: 12px 7px 20px 0px #b1afaf;position: relative;}
+.tab-content #menu1 .Box-shadow:hover h2, .tab-content #home .Box-shadow:hover h2{opacity: 1;transition: 0.8s all;transform: scale(1.0)}
+.tab-content #menu1 h2, .tab-content #home h2{text-transform: capitalize;text-align: center;font-size: 20px;color: #fff;font-family: "Josefin Sans",sans-serif;font-weight: bold;letter-spacing: 2px;margin-bottom: 0;z-index: 9999;margin-top: 15px;text-decoration: none;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;height: 50%;opacity: 0; transition: 0.8s all;transform: scale(0);}
+.tab-content #menu1 a:hover, .tab-content #home a:hover{text-decoration: none}
+
+.tab-content .col-md-4, modal-dialog.modal-dialog-centered, .tab-pane.fade, .tab-pane.active {
+    -webkit-animation: animatezoom 0.9s;
+    animation: animatezoom 0.9s;
+    
+}
+@keyframes animatezoom{
+    
+    0% {
+    transform: scale(0);
+    transition: 0.8s all;
+}
+    100% {
+    transform: scale(1);
+    transition: 0.8s all;
+}
+}
+.Contact .Form .form-group{margin-bottom: 25px;}
+
+form .form-group span {
+font-family: "Josefin Sans",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: red;
+}
+
+
+.FooterBottom{padding: 30px 0;background: #000}
+.FooterBottom a{color: #fff;font-weight: 600;font-size: 16px;line-height: 23px;font-family: "Josefin Sans",sans-serif;letter-spacing: 2px;}
+.FooterBottom a:hover{text-decoration: none;color: #fff}
+
+
+.FooterBottom a span{color:#ff2d20;font-size: 18px;}
+

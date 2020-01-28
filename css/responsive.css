@@ -1,0 +1,74 @@
+
+@media only screen and (max-width: 991px){
+    
+    
+    .Development .DevelopmentLeft .TechnologyList.Custome{margin-bottom: 30px;}
+    header nav ul li a{font-size: 10px;}
+    header nav ul li{margin: 0px 15px;}
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+    
+    .Contact .Form form .form-group .spinner-border-sm{left: 70px;}
+    .Contact .ContactImg{align-items: flex-end;}
+}
+
+@media only screen and (max-width: 767px){
+    .Contact .Form form .form-group .spinner-border-sm{left: 90px}
+    .Contact .Form .form-group .alert{max-width: 100%!important}
+header nav ul li a, header nav ul .active a{color: #fff}
+.AboutUs{background-position: top right;padding: 150px 0px;padding-bottom: 50px;}    
+     .Development .DevelopmentLeft h1{font-size: 20px}
+    .AboutUs h1{font-size: 25px;}
+    .AboutUs p{font-size: 14px;}
+    .Development .DevelopmentLeft .Technology .Box{margin: auto;}
+    .Development .DevelopmentLeft p{font-size: 14px;}
+    
+    .Development .DevelopmentLeft .TechnologyList.Custome{margin-bottom: 30px;}
+    .Development .DevelopmentLeft h1{margin-bottom: 30px;}
+    .Contact h1{font-size: 20px;margin-bottom: 15px;}
+    .FooterBottom a, .FooterBottom a span{font-size: 14px;}
+    .Contact .Form input{width: 100%}
+    .Contact .ContactImg{margin-top: 30px;}
+    .FooterBottom {
+        padding: 21px 0;}
+    .Contact {
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+#scroll{right:20px}
+header nav{border-top: 1px solid #a5a5a5b0;}
+header nav{ position: absolute;top: 60px;z-index: 999999;background-color: #174477;width: 100%;left: 0;right: 0;margin-left: auto;border-top: 1px solid #333;
+margin-right: auto;display: none}
+header nav ul{display: unset!important;}
+header nav ul li{margin: 0 0;padding: 4px 8px;}
+header nav ul li a{display: block;padding: 8px 8px;}  
+nav ul li a:after{content: unset;}
+    .FooterBottom a{letter-spacing: 0px;text-align: center;}
+}
+
+@media (min-width: 320px) and (max-width: 476px){
+    
+    .Development .DevelopmentLeft .Technology .Box{height: 60px;
+    width: 60px;}
+    .Development .DevelopmentLeft p{font-size: 12px;margin: 5px 0 0;}
+    .Development .DevelopmentLeft h1 {
+    font-size: 16px;
+}
+    
+    .AboutUs h1{font-size: 25px;}
+    .Development {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+    
+    .Development .DevelopmentLeft .Technology .Box i{font-size: 30px;}
+    
+    .AboutUs {
+    background-position: top right;
+    padding: 100px 0px;
+}
+    
+    .Portfolio .nav-pills .nav-link, .Portfolio .nav-pills .show>.nav-link{font-size: 12px !important;}
+    .Portfolio{padding-bottom: 30px;}
+}
